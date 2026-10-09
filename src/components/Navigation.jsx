@@ -1,17 +1,18 @@
+import NavItem from './NavItem.jsx';
 import { NAV_LINKS } from '../data/content.js';
 
 export default function Navigation({ className = '', linkClassName = '', onNavigate }) {
   return (
     <ul className={className}>
-      {NAV_LINKS.map(({ label, href }) => (
+      {NAV_LINKS.map(({ label, to }) => (
         <li key={label}>
-          <a
-            href={href}
+          <NavItem
+            to={to}
             onClick={onNavigate}
             className={`transition-opacity duration-150 hover:opacity-60 ${linkClassName}`}
           >
             {label}
-          </a>
+          </NavItem>
         </li>
       ))}
     </ul>

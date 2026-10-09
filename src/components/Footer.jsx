@@ -1,4 +1,5 @@
 import Container from './Container.jsx';
+import NavItem from './NavItem.jsx';
 import Logo from './Logo.jsx';
 import InstagramIcon from './InstagramIcon.jsx';
 import { BRAND, NAV_LINKS } from '../data/content.js';
@@ -12,11 +13,11 @@ export default function Footer() {
         <Logo variant="light" />
         <nav aria-label="Rodapé">
           <ul className="flex flex-wrap items-center gap-x-7 gap-y-3 text-[15px]">
-            {NAV_LINKS.map(({ label, href }) => (
+            {NAV_LINKS.map(({ label, to }) => (
               <li key={label}>
-                <a href={href} className={linkClass}>
+                <NavItem to={to} className={linkClass}>
                   {label}
-                </a>
+                </NavItem>
               </li>
             ))}
             <li aria-hidden="true" className="hidden w-5 md:block" />
