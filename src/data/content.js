@@ -1,8 +1,8 @@
 export const BRAND = {
   name: 'LDK ART',
   tagline: 'Ideias materializadas.',
-  instagramHandle: '@ldk__art',
-  instagramUrl: 'https://www.instagram.com/ldk__art/',
+  instagramHandle: '@ldk___art',
+  instagramUrl: 'https://www.instagram.com/ldk___art/',
 };
 
 // WhatsApp number in international format, digits only (country + area code + number).

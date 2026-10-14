@@ -71,6 +71,26 @@ export const PRODUCTS = [
     alt: 'Cinco dragões articulados coloridos impressos em 3D',
     message: 'Olá! Tenho interesse nos dragões articulados impressos em 3D. Pode me passar mais informações?',
   }),
+  product({
+    id: 'mascote-corinthians',
+    title: 'Mascote do Corinthians',
+    category: 'colecionaveis',
+    price: 149.9,
+    featured: true,
+    image: '/assets/products/mascote_corinthians.webp',
+    alt: 'Mascote gavião do Corinthians musculoso, com asas pretas e uniforme alvinegro, sobre base com o escudo do clube, impresso em 3D',
+    message: 'Olá! Tenho interesse na impressão 3D do mascote do Corinthians. Pode me passar mais informações?',
+  }),
+  product({
+    id: 'mascote-flamengo',
+    title: 'Mascote do Flamengo',
+    category: 'colecionaveis',
+    price: 149.9,
+    featured: true,
+    image: '/assets/products/mascote_flamengo.webp',
+    alt: 'Mascote urubu do Flamengo musculoso, com camisa rubro-negra e calção branco, sobre base listrada, impresso em 3D',
+    message: 'Olá! Tenho interesse na impressão 3D do mascote do Flamengo. Pode me passar mais informações?',
+  }),
 
   // --- Produtos DEMONSTRATIVOS (demo: true) — apenas para completar o layout ---
   product({
